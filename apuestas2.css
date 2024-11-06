@@ -1,0 +1,34 @@
+body{
+    background-image: url(imagenes/fondos3.jpg);
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+    margin-right: 50px;
+}
+.centrado{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 130px;
+}
+.bl.sl.po.ru{
+    margin: 0;
+
+
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
