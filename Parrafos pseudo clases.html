@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            margin: auto;
+            width: 80%;
+            text-align: center;
+            border: 1px solid black;
+            margin-bottom: 7px;
+            padding-top: 5px;
+            padding-bottom:5px
+            
+        }
+        
+        span{
+            display: inline;
+            margin: 10px;
+            width: 10px;
+           
+        }
+        p:nth-child(2){
+            background-color: yellow;
+        }
+        p:nth-child(4) span+span+span{
+            color: red;
+        }
+        p:nth-child(6) span:nth-child(2){
+            background-color: green;
+        }
+        p:nth-child(3) span{
+            font-weight: bold;
+        }
+        p:nth-child(1) span:nth-child(1){
+            font-style:italic
+        }
+        p:nth-child(5) span:nth-child(2){
+            text-decoration: underline wavy red;
+        }
+        p:nth-child(4) span:first-child:hover ~span{
+            color:  green;
+            border: 1px solid green;
+            
+        }
+        /* altgr 4 birgulilla selecciona a los hermanos */
+       
+
+
+
+    </style>
+</head>
+<body>
+    <p>Parrafo A:<span>1</span><span>2</span><span>3</span></p>
+    <p>Parrafo B:<span>1</span><span>2</span><span>3</span></p>
+    <p>Parrafo C:<span>1</span><span>2</span><span>3</span></p>
+    <p>Parrafo D:<span>1</span><span>2</span><span>3</span></p>
+    <p>Parrafo E:<span>1</span><span>2</span><span>3</span></p>
+    <p>Parrafo F:<span>1</span><span>2</span><span>3</span></p>
+     
+</body>
+</html>
