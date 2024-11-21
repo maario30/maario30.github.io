@@ -1,0 +1,29 @@
+body{
+    background-image: url(../imagenes/fondos3.jpg);
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    width: 70%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+    margin-right: 50px;
+   
+
+}
+.centrado{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 130px;
+}
+
+
+
