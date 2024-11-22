@@ -5,9 +5,18 @@ body{
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 h1{
     font-size: 35px;
+}
+h2{
+    font-size: 40px;
+
+}
+figcaption{
+    text-align: center;
 }
 p{
     text-align: justify;
@@ -27,6 +36,56 @@ margin-top: 130px;
 footer{
     text-align: center;
     padding: 10px;
+}
+.articulos{
+    display: flex;
+    margin-bottom: 75px;
+}
+.lado1{
+    width: 70%;
+    margin :auto;
+    padding: auto;
+
+}
+.lado2{
+    width: 30%;
+    margin :auto;
+    padding: auto;
+
+}
+.lado3{
+    width: 70%;
+    margin-right: 15px;
+    padding: auto;
+
+}
+.lado4{
+    width: 30%;
+    margin-left: 15px;
+    padding: auto;
+
+}
+.lado5{
+    width: 70%;
+  
+
+}
+.lado6{
+    width: 30%;
+    margin :auto;
+    padding: auto;
+
+}
+.lado7{
+    width: 70%;
+    margin :auto;
+    padding: auto;
+
+}.lado8{
+    width: 30%;
+    margin :auto;
+    padding: auto;
+
 }
 
 
