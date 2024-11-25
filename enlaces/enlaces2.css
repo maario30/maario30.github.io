@@ -31,18 +31,20 @@ margin-left: 350px;
     display: flex;
     margin-top: 100px;
     justify-content: center;
-    gap:200px;
+    gap:350px;
     align-items: center;
     margin-left: 200px;
+    padding-left: 150px ;
     text-align: center;
 }
 .imagenesvarias2{
     display: flex;
     margin-top: 100px;
     justify-content: center;
-    gap:200px;
+    gap:350px;
     align-items: center;
     margin-left: 200px;
+    padding-left: 150px ;
     text-align: center;
 
 }
