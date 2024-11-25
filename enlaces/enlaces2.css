@@ -5,7 +5,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    width: 70%;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -25,26 +24,26 @@ margin-top: 130px;
 .video{
     justify-content: center;
 align-items: center;
-margin-left: 350px;
+text-align: center;
+margin-top: 50px;
+
 }
 .imagenesvarias{
     display: flex;
     margin-top: 100px;
     justify-content: center;
-    gap:350px;
+    gap:270px;
     align-items: center;
-    margin-left: 200px;
-    padding-left: 150px ;
+    margin-left: 50px;
     text-align: center;
 }
 .imagenesvarias2{
     display: flex;
     margin-top: 100px;
     justify-content: center;
-    gap:350px;
+    gap:270px;
     align-items: center;
-    margin-left: 200px;
-    padding-left: 150px ;
+    margin-left: 50px;
     text-align: center;
 
 }
