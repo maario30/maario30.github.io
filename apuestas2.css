@@ -1,5 +1,5 @@
 body{
-    background-image: url(imagenes/fondos3.jpg);
+    background-image: url(imagenes/fondos3.webp);
     background-position: center;   
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,6 +87,7 @@ footer{
     padding: auto;
 
 }
+
 
 
 
