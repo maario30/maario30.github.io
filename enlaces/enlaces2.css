@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imagenes/fondos3.jpg);
+    background-image: url(../imagenes/fondos3.webp);
     background-position: center;   
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,8 +15,6 @@ h1{
 p{
     text-align: justify;
     margin-right: 50px;
-   
-
 }
 .centrado{
 display: flex;
@@ -24,6 +22,29 @@ justify-content: center;
 align-items: center;
 margin-top: 130px;
 }
+.video{
+    justify-content: center;
+align-items: center;
+margin-left: 350px;
+}
+.imagenesvarias{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap:200px;
+    align-items: center;
+    margin-left: 200px;
+    text-align: center;
+}
+.imagenesvarias2{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap:200px;
+    align-items: center;
+    margin-left: 200px;
+    text-align: center;
 
+}
 
 
