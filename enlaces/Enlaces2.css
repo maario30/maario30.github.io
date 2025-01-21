@@ -1,0 +1,52 @@
+body{
+    background-image: url(../imagenes/btc2.png);
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+    margin-right: 50px;
+}
+.centrado{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 130px;
+}
+.video{
+display: inline-block;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 50px;
+
+}
+.imagenesvarias{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap:270px;
+    align-items: center;
+    margin-left: 50px;
+    text-align: center;
+}
+.imagenesvarias2{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap:270px;
+    align-items: center;
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+
