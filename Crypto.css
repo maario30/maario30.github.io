@@ -22,6 +22,7 @@ nav {
     background: rgba(0, 0, 0, 0.7);
     padding: 15px 0;
     border-radius: 10px;
+    
 }
 nav ol {
     list-style: none;
@@ -30,17 +31,19 @@ nav ol {
     display: flex;
     gap: 20px;
 }
-li{
+nav ol li{
     list-style: none;
+    display: inline;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+
     font-size: 18px;
-    display: inline;
     padding: 10px 15px;
     color: white;
+    background-color: rgb(40, 189, 164);
     border: 2px solid white;
     border-radius: 5px;
-    align-items: center;
     
 }
 div{
@@ -75,10 +78,6 @@ p.enlaces{
     border: 2px solid white;
     border-radius: 5px;
     margin: 0 auto; /* Añadir esta línea para centrar */
-
-  
-   
-
 }
 
 
