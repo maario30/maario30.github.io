@@ -1,58 +1,87 @@
-body{
+body {
     background-image: url(imagenes/btc3.png);
-    background-position: center;   
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    margin-left: 25px;
-    margin-right: 25px;
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    padding: 10px;
 }
-h1{
-    font-size: 35px;
-}
-nav{
-    display: flex;
+h1 {
+    font-size: 40px;
     text-align: center;
-   
+    margin-top: 20px;
+}
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    border-radius: 10px;
 }
 nav ol {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
     gap: 20px;
 }
 li{
     list-style: none;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 35px;
+    font-size: 18px;
     display: inline;
     padding: 10px 15px;
     color: white;
     border: 2px solid white;
+    border-radius: 5px;
     align-items: center;
     
 }
-h2{
-    font-size: 25px;
-
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
 }
 p{
     text-align: justify;
-    margin-right: 50px;
+    margin-bottom: 15px;
 }
 footer{
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 2px solid white;
+    font-size: 14px;
 }
-.articulos{
+p.enlaces{
     display: flex;
-    margin-bottom: 75px;
-}
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    text-align: center;
 
+    font-size: 18px;
+    padding: 10px 15px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0 auto; /* Añadir esta línea para centrar */
+
+  
+   
+
+}
 
 
 
