@@ -75,6 +75,7 @@ p.enlaces{
     font-size: 18px;
     padding: 10px 15px;
     color: white;
+    background-color: rgb(40, 189, 164);
     border: 2px solid white;
     border-radius: 5px;
     margin: 0 auto; /* Añadir esta línea para centrar */
