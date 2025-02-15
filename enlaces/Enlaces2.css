@@ -1,5 +1,5 @@
 body{
-    background-image: url(../../../btc2.png);
+    background-image: url(../btc2.png);
     background-position: center;   
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,76 +11,68 @@ body{
 h1{
     font-size: 35px;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 0;
+  border-radius: 10px;
+}
+
+nav ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ol li {
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  display: inline;
+
+  padding: 10px 15px;
+  color: white;
+  background-color: rgb(40, 189, 164);
+  border: 2px solid white;
+  border-radius: 5px;
+  align-items: center;
+
+}
 p{
     text-align: justify;
     margin-right: 50px;
 }
-.centrado{
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 130px;
-}
-.video{
-display: inline-block;
-justify-content: center;
-align-items: center;
-text-align: center;
-margin-top: 50px;
 
-}
 .imagenesvarias{
     display: flex;
-    margin-top: 100px;
-    justify-content: center;
-    gap:270px;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+
+    margin-top: 100px;
+    gap:270px;
     margin-left: 50px;
     text-align: center;
 }
 .imagenesvarias2{
-    display: flex;
-    margin-top: 100px;
-    justify-content: center;
-    gap:270px;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+
+    margin-top: 100px;
+    gap:270px;
     margin-left: 50px;
     text-align: center;
 
 }
-nav {
-    display: flex;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 15px 0;
-    border-radius: 10px;
-  }
 
-  nav ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-  }
 
-  nav ol li {
-    list-style: none;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 18px;
-    display: inline;
-
-    padding: 10px 15px;
-    color: white;
-    background-color: rgb(40, 189, 164);
-    border: 2px solid white;
-    border-radius: 5px;
-    align-items: center;
-
-  }
-
-@media (max-width: 460px) {
+@media (max-width: 480px) {
     nav {
       display: flex;
       flex-direction: column;
@@ -113,4 +105,29 @@ nav {
       align-items: center;
       text-align: center;
     }
+    .imagenesvarias{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  
+      margin-top: 100px;
+      gap:270px;
+      margin-left: 50px;
+      text-align: center;
+  }
+  .imagenesvarias2{
+    display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  
+      margin-top: 100px;
+      gap:270px;
+      margin-left: 50px;
+      text-align: center;
+  
+  }
+
+
   }
