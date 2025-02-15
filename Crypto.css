@@ -7,23 +7,27 @@ body {
     margin: 15px;
     padding: 10px;
 }
+
 h1 {
     font-size: 40px;
     text-align: center;
     margin-top: 20px;
 }
+
 h2 {
     font-size: 28px;
     margin-bottom: 10px;
 }
+
 nav {
     display: flex;
     justify-content: center;
     background: rgba(0, 0, 0, 0.7);
     padding: 15px 0;
     border-radius: 10px;
-    
+
 }
+
 nav ol {
     list-style: none;
     padding: 0;
@@ -31,7 +35,8 @@ nav ol {
     display: flex;
     gap: 20px;
 }
-nav ol li{
+
+nav ol li {
     list-style: none;
     display: inline;
     flex-direction: row;
@@ -44,19 +49,22 @@ nav ol li{
     background-color: rgb(40, 189, 164);
     border: 2px solid white;
     border-radius: 5px;
-    
+
 }
-div{
+
+div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 400px;
 }
-p{
+
+p {
     text-align: justify;
     margin-bottom: 15px;
 }
-footer{
+
+footer {
     text-align: center;
     padding: 15px;
     margin-top: 20px;
@@ -64,7 +72,14 @@ footer{
     border-top: 2px solid white;
     font-size: 14px;
 }
-p.enlaces{
+footer.p{
+color: white;
+text-align: center;
+
+
+}
+
+p.enlaces {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -78,11 +93,62 @@ p.enlaces{
     background-color: rgb(40, 189, 164);
     border: 2px solid white;
     border-radius: 5px;
-    margin: 0 auto; /* Añadir esta línea para centrar */
+    margin: 0 auto;
+    /* Añadir esta línea para centrar */
 }
 
+@media (max-width: 460px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 
+    nav ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        /* Añadir esta línea */
+    }
 
+    nav ol li {
+        list-style: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        display: block;
+        /* Cambiar inline a block */
+        padding: 10px 15px;
+        color: white;
+        background-color: rgb(40, 189, 164);
+        border: 2px solid white;
+        border-radius: 5px;
+        align-items: center;
+        text-align: center;
+    }
 
-
-
+    .videos {
+        display: block;
+        flex-direction: column;
+        height: 200px;
+        /* Cambiar a columna */
+        gap: 100px;
+        /* Espacio entre los videos */
+        width: 100%;
+        /* Asegurar que el contenedor ocupe todo el ancho */
+    }
+    div>iframe{
+       width: 275px;
+       height: 200px;
+    }
+    p.espacio{
+        height: 300px;
+    }
+   
+}
+    
+   
