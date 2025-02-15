@@ -131,7 +131,40 @@
   }
   
 
+  @media (max-width: 460px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
 
+      nav ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        /* Añadir esta línea */
+      }
+
+      nav ol li {
+        list-style: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        display: block;
+        /* Cambiar inline a block */
+        padding: 10px 15px;
+        color: white;
+        background-color: rgb(40, 189, 164);
+        border: 2px solid white;
+        border-radius: 5px;
+        align-items: center;
+        text-align: center;
+      }
+    }
   </style>
 </head>
 <body>
