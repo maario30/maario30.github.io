@@ -2,6 +2,7 @@ body {
     background-image: url(imagenes/btc3.png);
     background-position: center;
     background-attachment: fixed;
+    background-color: #000000;
     color: white;
     font-family: Arial, sans-serif;
     margin: 15px;
@@ -45,8 +46,8 @@ nav ol li {
 
     font-size: 18px;
     padding: 10px 15px;
-    color: white;
-    background-color: rgb(40, 189, 164);
+    color: #000000;
+    background-color: #9AEADA;
     border: 2px solid white;
     border-radius: 5px;
 
@@ -92,8 +93,8 @@ p.enlaces {
 
     font-size: 18px;
     padding: 10px 15px;
-    color: white;
-    background-color: rgb(40, 189, 164);
+    color: #000000;
+    background-color: #9AEADA;
     border: 2px solid white;
     border-radius: 5px;
     margin: 0 auto;
@@ -126,8 +127,8 @@ p.enlaces {
         display: block;
         /* Cambiar inline a block */
         padding: 10px 15px;
-        color: white;
-        background-color: rgb(40, 189, 164);
+        color: #000000;
+        background-color: #9AEADA;
         border: 2px solid white;
         border-radius: 5px;
         align-items: center;

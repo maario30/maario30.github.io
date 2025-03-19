@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-color: #000000;
     color: white;
     margin-left: 25px;
     margin-right: 25px;
@@ -36,8 +37,8 @@ nav ol li {
 
   padding: 10px 15px;
   color: white;
-  background-color: rgb(40, 189, 164);
-  border: 2px solid white;
+  color: #000000;
+  background-color: #9AEADA;
   border-radius: 5px;
   align-items: center;
 
@@ -98,8 +99,8 @@ p{
       display: block;
       /* Cambiar inline a block */
       padding: 10px 15px;
-      color: white;
-      background-color: rgb(40, 189, 164);
+      color: #000000;
+      background-color: #9AEADA;
       border: 2px solid white;
       border-radius: 5px;
       align-items: center;
