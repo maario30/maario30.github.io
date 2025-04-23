@@ -73,12 +73,16 @@ p{
 
 }
 
-a{
+img a{
   text-decoration: none;
   color: white;
   background-color: #9AEADA;
       border: 2px solid white;
       border-radius: 5px;
+      align-items: center;
+      padding: 10px 15px;
+
+
      
 }
 
@@ -141,12 +145,14 @@ a{
   
   }
   
-  a{
+  img a{
     text-decoration: none;
     color: white;
     background-color: #9AEADA;
-      border: 2px solid white;
-      border-radius: 5px;
+        border: 2px solid white;
+        border-radius: 5px;
+        align-items: center;
+        padding: 10px 15px;
      
   }
   
