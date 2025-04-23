@@ -71,6 +71,10 @@ p{
     text-align: center;
 
 }
+div{
+  text-decoration: none;
+  color: white;
+}
 
 
 @media (max-width: 480px) {
@@ -129,6 +133,11 @@ p{
       text-align: center;
   
   }
+  div{
+    text-decoration: none;
+    color: white;
+  }
+  
 
 
   }
