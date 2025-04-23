@@ -76,8 +76,8 @@ p{
 img a{
   text-decoration: none;
   color: white;
-  background-color: #9AEADA;
-      border: 2px solid white;
+  background-color: #43ee0f;
+      border: 2px solid rgb(0, 0, 0);
       border-radius: 5px;
       align-items: center;
       padding: 10px 15px;
@@ -147,12 +147,13 @@ img a{
   
   img a{
     text-decoration: none;
-    color: white;
-    background-color: #9AEADA;
-        border: 2px solid white;
-        border-radius: 5px;
-        align-items: center;
-        padding: 10px 15px;
+  color: white;
+  background-color: #43ee0f;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 5px;
+      align-items: center;
+      padding: 10px 15px;
+
      
   }
   
