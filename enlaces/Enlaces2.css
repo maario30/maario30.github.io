@@ -29,6 +29,7 @@ nav ol {
 }
 
 nav ol li {
+  text-decoration: none;
   list-style: none;
   flex-direction: row;
   justify-content: space-between;
@@ -71,10 +72,11 @@ p{
     text-align: center;
 
 }
+/*
 div{
   text-decoration: none;
   color: white;
-}
+}*/
 
 
 @media (max-width: 480px) {
@@ -95,6 +97,7 @@ div{
     }
 
     nav ol li {
+      text-decoration: none;
       list-style: none;
       flex-direction: column;
       justify-content: space-between;
@@ -133,11 +136,12 @@ div{
       text-align: center;
   
   }
+  /*
   div{
     text-decoration: none;
     color: white;
   }
-  
+  */
 
 
   }
