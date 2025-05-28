@@ -94,22 +94,15 @@ figcaption a {
   padding: 10px 24px;
   font-size: 20px;
   font-weight: bold;
-  color: #0a2e2c;
+  color: #ffffff;
   background: linear-gradient(90deg, #9AEADA 60%, #b6f5e7 100%);
-  border: 2px solid #0a2e2c;
+  border: 2px solid #ffffff;
   border-radius: 8px;
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
   margin-top: 10px;
-  /* transition eliminada */
 }
 
-figcaption a:hover {
-  background: linear-gradient(90deg, #0a2e2c 60%, #9AEADA 100%);
-  color: #fff;
-  transform: scale(1.07);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
-}
+
 @media (max-width: 480px) {
   nav {
     display: flex;
@@ -186,21 +179,13 @@ figcaption a {
   padding: 10px 24px;
   font-size: 20px;
   font-weight: bold;
-  color: #0a2e2c;
+  color: #ffffff;
   background: linear-gradient(90deg, #9AEADA 60%, #b6f5e7 100%);
-  border: 2px solid #0a2e2c;
+  border: 2px solid #ffffff;
   border-radius: 8px;
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
   margin-top: 10px;
-  /* transition eliminada */
 }
 
-figcaption a:hover {
-  background: linear-gradient(90deg, #0a2e2c 60%, #9AEADA 100%);
-  color: #fff;
-  transform: scale(1.07);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
-}
 
 }
