@@ -39,10 +39,12 @@ nav ol li {
   display: inline;
 
   padding: 10px 15px;
-  color: white;
-  color: #000000;
-  background-color: #9AEADA;
-  border-radius: 5px;
+  color: #0a2e2c;
+  background: linear-gradient(90deg, #9AEADA 60%, #b6f5e7 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  border: 2px solid #0a2e2c;
+  border-radius: 8px;
+  text-decoration: none;
   align-items: center;
 
 }
@@ -96,7 +98,7 @@ figcaption a {
   font-weight: bold;
   color: #0a2e2c;
   background: linear-gradient(90deg, #9AEADA 60%, #b6f5e7 100%);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
   border: 2px solid #0a2e2c;
   border-radius: 8px;
   text-decoration: none;
@@ -131,10 +133,12 @@ figcaption a {
     display: block;
     /* Cambiar inline a block */
     padding: 10px 15px;
-    color: #000000;
-    background-color: #9AEADA;
-    border: 2px solid white;
-    border-radius: 5px;
+    color: #0a2e2c;
+    background: linear-gradient(90deg, #9AEADA 60%, #b6f5e7 100%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    border: 2px solid #0a2e2c;
+    border-radius: 8px;
+    text-decoration: none;
     align-items: center;
     text-align: center;
   }
@@ -175,19 +179,19 @@ figcaption a {
 
   }
 
-figcaption a {
-  display: inline-block;
-  padding: 10px 24px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #0a2e2c;
-  background: linear-gradient(90deg, #9AEADA 60%, #b6f5e7 100%);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-  border: 2px solid #0a2e2c;
-  border-radius: 8px;
-  text-decoration: none;
-  margin-top: 10px;
-}
+  figcaption a {
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a2e2c;
+    background: linear-gradient(90deg, #9AEADA 60%, #b6f5e7 100%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    border: 2px solid #0a2e2c;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
 
 
 }

@@ -46,10 +46,13 @@ nav ol li {
 
     font-size: 18px;
     padding: 10px 15px;
-    color: #000000;
-    background-color: #9AEADA;
-    border: 2px solid white;
-    border-radius: 5px;
+    color: #0a2e2c;
+    background: linear-gradient(90deg, #9AEADA 60%, #b6f5e7 100%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    border: 2px solid #0a2e2c;
+    border-radius: 8px;
+    text-decoration: none;
+
 
 }
 
@@ -75,10 +78,11 @@ footer {
     border-top: 2px solid white;
     font-size: 14px;
 }
-footer.p{
-    
-color: white;
-text-align: center;
+
+footer.p {
+
+    color: white;
+    text-align: center;
 
 
 }
@@ -127,10 +131,12 @@ p.enlaces {
         display: block;
         /* Cambiar inline a block */
         padding: 10px 15px;
-        color: #000000;
-        background-color: #9AEADA;
-        border: 2px solid white;
-        border-radius: 5px;
+        color: #0a2e2c;
+        background: linear-gradient(90deg, #9AEADA 60%, #b6f5e7 100%);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+        border: 2px solid #0a2e2c;
+        border-radius: 8px;
+        text-decoration: none;
         align-items: center;
         text-align: center;
     }
@@ -145,14 +151,14 @@ p.enlaces {
         width: 100%;
         /* Asegurar que el contenedor ocupe todo el ancho */
     }
-    div>iframe{
-       width: 275px;
-       height: 200px;
+
+    div>iframe {
+        width: 275px;
+        height: 200px;
     }
-    p.espacio{
+
+    p.espacio {
         height: 300px;
     }
-   
+
 }
-    
-   
