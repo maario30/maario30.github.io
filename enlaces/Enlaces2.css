@@ -89,7 +89,19 @@ img a {
 
 }
 
-
+figcaption {
+  text-decoration: none;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  display: inline;
+  padding: 10px 15px;
+  color: #000000;
+  background-color: #9AEADA;
+  border-radius: 5px;
+  align-items: center;
+}
 
 @media (max-width: 480px) {
   nav {
@@ -162,6 +174,18 @@ img a {
 
   }
 
-
+figcaption {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  display: block;
+  padding: 10px 15px;
+  color: #000000;
+  background-color: #9AEADA;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+}
 
 }
