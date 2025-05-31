@@ -72,7 +72,7 @@ footer {
     display: flex;
     justify-content: center;
     text-align: left;
-    padding: 15px;
+    padding: 8px 15px;
     margin-top: 20px;
     background: rgba(0, 0, 0, 0.8);
     border-top: 2px solid white;
