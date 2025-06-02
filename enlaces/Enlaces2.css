@@ -60,30 +60,23 @@ p {
   text-align: left;
   margin-right: 50px;
 }
-
-.imagenesvarias {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+main div{
+    display: flex;
+  flex-direction: column;
   align-items: center;
-
-  margin-top: 100px;
-  gap: 270px;
-  margin-left: 50px;
-  text-align: center;
+  gap: 100px; 
+  margin: 100px auto;
 }
 
+.imagenesvarias,
 .imagenesvarias2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+   display: flex;
+     flex-direction: row;      
+     flex-wrap: wrap;
+  justify-content: center; 
   align-items: center;
-
-  margin-top: 100px;
-  gap: 270px;
-  margin-left: 50px;
+  gap: 60px; 
   text-align: center;
-
 }
 
 img a {
@@ -150,28 +143,10 @@ figcaption a {
     text-align: center;
   }
 
-  .imagenesvarias {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    margin-top: 100px;
-    gap: 270px;
-    margin-left: 50px;
-    text-align: center;
-  }
-
+    .imagenesvarias,
   .imagenesvarias2 {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    margin-top: 100px;
-    gap: 270px;
-    margin-left: 50px;
-    text-align: center;
+    margin-top: 20px;
   }
 
   img a {
